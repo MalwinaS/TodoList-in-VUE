@@ -19,13 +19,13 @@
       <!-- 2) Output your age -->
       <p>{{ age }}</p>
       <!-- 3) Output your age + 5 -->
-      <p>{{ newAge() }}</p>
+      <p>{{ newAge() }} in 5 years</p>
       <!-- 4) Output a random number (0 to 1) -->
       <p>{{ randomNum() }}</p>
       <p>{{ Math.random() }}</p>
       <div>
         <!-- 5) Display some image you found via Google -->
-        <img v-bind:src="src" />
+        <img v-bind:src="imgUrl" />
       </div>
       <!-- 6) Prepopulate the input field with your name via the "value" attribute -->
       <input type="text" v-bind:value="firstName"/>
