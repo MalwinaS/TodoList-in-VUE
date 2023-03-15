@@ -24,7 +24,7 @@
         <li v-for="task in tasks" :key="task">{{ task }}</li>
       </ul>
       <p v-else></p>
-      <button @click="toggleList">{{ isActive ? 'Hide' : 'Show' }}</button>
+      <button @click="toggleList">{{ buttonCaption }}</button>
     </section>
   </body>
 </html>
